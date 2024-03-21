@@ -1,12 +1,3 @@
-### Pré-requisitos
-- Instalar o [docker](https://docs.docker.com/)
-- Instalar o [Kubectl](https://kubernetes.io/docs/tasks/tools/)
-- Instalar o [Minikube](https://minikube.sigs.k8s.io/docs/start/)
-- Instalar o [Helm](https://helm.sh/docs/intro/install/)
-- Instalar o [Lens](https://k8slens.dev/)
-
-Opcional: https://github.com/ahmetb/kubectx
-
 ### Adicionando helm repo do apache-airflow e instalando Airflow
 - Acessar ArtifactHub [ArtifactHUB](https://artifacthub.io/packages/search?ts_query_web=airflow&sort=relevance&page=1)
 
