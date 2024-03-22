@@ -1,9 +1,12 @@
 ### Adicionando helm repo do apache-airflow e instalando Airflow
 - Acessar ArtifactHub [ArtifactHUB](https://artifacthub.io/packages/search?ts_query_web=airflow&sort=relevance&page=1)
 
+
 ```helm repo add apache-airflow https://airflow.apache.org/```
 
-``` helm upgrade --install airflow apache-airflow/airflow --namespace airflow --create-namespace ```
+```kubectl create namespace airflow```
+
+``` helm install airflow apache-airflow/airflow --namespace airflow --debug --timeout 10m0s```
 
 helm install airflow apache-airflow/airflow --version 1.12.0 --namespace airflow --create-namespace
 
